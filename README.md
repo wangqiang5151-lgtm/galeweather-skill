@@ -73,3 +73,9 @@ python -m unittest discover -s tests -v
 ```
 
 鉴权必须由服务端强制执行：有效期、启停状态、接口权限、配额和坐标授权不能仅依赖客户端判断。客户端代码公开后仍不应允许无Key获取数据。
+
+## 联系方式
+
+有问题请扫描下方二维码联系。
+
+<img src="assets/contact-wechat.jpg" alt="微信联系二维码" width="360" />
