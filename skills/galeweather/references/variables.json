@@ -1,0 +1,1651 @@
+{
+  "source": "疾风气象要素清单_v2(2).pdf",
+  "note": "文档候选清单，非线上可用性验证；current 支持情况未提供。",
+  "variables": [
+    {
+      "name": "aerosol_optical_depth",
+      "unit": "1",
+      "forecast": true,
+      "history": true,
+      "description": "气溶胶光学厚度"
+    },
+    {
+      "name": "alder_pollen",
+      "unit": "grains/m³",
+      "forecast": true,
+      "history": true,
+      "description": "桤木花粉"
+    },
+    {
+      "name": "ammonia",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "氨浓度"
+    },
+    {
+      "name": "birch_pollen",
+      "unit": "grains/m³",
+      "forecast": true,
+      "history": true,
+      "description": "桦树花粉"
+    },
+    {
+      "name": "carbon_dioxide",
+      "unit": "ppm",
+      "forecast": true,
+      "history": true,
+      "description": "二氧化碳浓度"
+    },
+    {
+      "name": "carbon_monoxide",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "一氧化碳浓度"
+    },
+    {
+      "name": "dust",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "沙尘浓度"
+    },
+    {
+      "name": "european_aqi",
+      "unit": "index",
+      "forecast": true,
+      "history": true,
+      "description": "欧洲空气质量指数"
+    },
+    {
+      "name": "grass_pollen",
+      "unit": "grains/m³",
+      "forecast": true,
+      "history": true,
+      "description": "草花粉"
+    },
+    {
+      "name": "methane",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "甲烷浓度"
+    },
+    {
+      "name": "mugwort_pollen",
+      "unit": "grains/m³",
+      "forecast": true,
+      "history": true,
+      "description": "艾草花粉"
+    },
+    {
+      "name": "nitrogen_dioxide",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "二氧化氮浓度"
+    },
+    {
+      "name": "olive_pollen",
+      "unit": "grains/m³",
+      "forecast": true,
+      "history": true,
+      "description": "橄榄花粉"
+    },
+    {
+      "name": "ozone",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "臭氧浓度"
+    },
+    {
+      "name": "pm10",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "PM10颗粒物浓度"
+    },
+    {
+      "name": "pm2_5",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "PM2.5颗粒物浓度"
+    },
+    {
+      "name": "ragweed_pollen",
+      "unit": "grains/m³",
+      "forecast": true,
+      "history": true,
+      "description": "豚草花粉"
+    },
+    {
+      "name": "sulphur_dioxide",
+      "unit": "μg/m³",
+      "forecast": true,
+      "history": true,
+      "description": "二氧化硫浓度"
+    },
+    {
+      "name": "uv_index",
+      "unit": "index",
+      "forecast": true,
+      "history": true,
+      "description": "紫外线指数"
+    },
+    {
+      "name": "uv_index_clear_sky",
+      "unit": "index",
+      "forecast": true,
+      "history": true,
+      "description": "晴空紫外线指数"
+    },
+    {
+      "name": "boundary_layer_height",
+      "unit": "m",
+      "forecast": true,
+      "history": true,
+      "description": "行星边界层高度"
+    },
+    {
+      "name": "freezing_level_height",
+      "unit": "m",
+      "forecast": true,
+      "history": true,
+      "description": "零度层海拔高度"
+    },
+    {
+      "name": "cloud_cover",
+      "unit": "%",
+      "forecast": true,
+      "history": true,
+      "description": "总云量"
+    },
+    {
+      "name": "cloud_cover_high",
+      "unit": "%",
+      "forecast": true,
+      "history": true,
+      "description": "高云量"
+    },
+    {
+      "name": "cloud_cover_low",
+      "unit": "%",
+      "forecast": true,
+      "history": true,
+      "description": "低云量"
+    },
+    {
+      "name": "cloud_cover_mid",
+      "unit": "%",
+      "forecast": true,
+      "history": true,
+      "description": "中云量"
+    },
+    {
+      "name": "cape",
+      "unit": "J/kg",
+      "forecast": true,
+      "history": true,
+      "description": "对流有效位能"
+    },
+    {
+      "name": "convective_inhibition",
+      "unit": "J/kg",
+      "forecast": true,
+      "history": true,
+      "description": "对流抑制能量"
+    },
+    {
+      "name": "lifted_index",
+      "unit": "K",
+      "forecast": true,
+      "history": true,
+      "description": "抬升指数"
+    },
+    {
+      "name": "clear_sky_dni",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "疾风大模型DNI"
+    },
+    {
+      "name": "clear_sky_ghi",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "疾风大模型GHI"
+    },
+    {
+      "name": "dew_point_2m",
+      "unit": "°C",
+      "forecast": true,
+      "history": true,
+      "description": "地面以上2米露点温度"
+    },
+    {
+      "name": "relative_humidity_2m",
+      "unit": "%",
+      "forecast": true,
+      "history": true,
+      "description": "地面以上2米相对湿度"
+    },
+    {
+      "name": "total_column_integrated_water_vapour",
+      "unit": "kg/m²",
+      "forecast": true,
+      "history": true,
+      "description": "整层可降水量"
+    },
+    {
+      "name": "vapour_pressure_deficit",
+      "unit": "kPa",
+      "forecast": true,
+      "history": true,
+      "description": "饱和水汽压差"
+    },
+    {
+      "name": "evapotranspiration",
+      "unit": "mm",
+      "forecast": true,
+      "history": true,
+      "description": "实际蒸散量"
+    },
+    {
+      "name": "precipitation",
+      "unit": "mm",
+      "forecast": true,
+      "history": true,
+      "description": "总降水量"
+    },
+    {
+      "name": "precipitation_probability",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "降水概率"
+    },
+    {
+      "name": "rain",
+      "unit": "mm",
+      "forecast": true,
+      "history": true,
+      "description": "大尺度降雨量"
+    },
+    {
+      "name": "showers",
+      "unit": "mm",
+      "forecast": true,
+      "history": true,
+      "description": "阵性降雨量"
+    },
+    {
+      "name": "pressure_msl",
+      "unit": "hPa",
+      "forecast": true,
+      "history": true,
+      "description": "海平面气压"
+    },
+    {
+      "name": "surface_pressure",
+      "unit": "hPa",
+      "forecast": true,
+      "history": true,
+      "description": "地表气压"
+    },
+    {
+      "name": "cloud_cover_1000hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "1000hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_100hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "100hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_150hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "150hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_200hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "200hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_250hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "250hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_300hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "300hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_30hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "30hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_400hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "400hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_500hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "500hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_50hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "50hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_600hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "600hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_700hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "700hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_70hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "70hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_800hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "800hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_850hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "850hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_900hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "900hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_925hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "925hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_950hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "950hPa气压层云量"
+    },
+    {
+      "name": "cloud_cover_975hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "975hPa气压层云量"
+    },
+    {
+      "name": "dew_point_1000hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "1000hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_100hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "100hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_150hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "150hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_200hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "200hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_250hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "250hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_300hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "300hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_30hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "30hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_400hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "400hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_500hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "500hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_50hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "50hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_600hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "600hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_700hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "700hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_70hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "70hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_800hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "800hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_850hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "850hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_900hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "900hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_925hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "925hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_950hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "950hPa气压层露点温度"
+    },
+    {
+      "name": "dew_point_975hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "975hPa气压层露点温度"
+    },
+    {
+      "name": "geopotential_height_1000hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "1000hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_100hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "100hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_150hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "150hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_200hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "200hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_250hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "250hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_300hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "300hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_30hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "30hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_400hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "400hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_500hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "500hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_50hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "50hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_600hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "600hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_700hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "700hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_70hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "70hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_800hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "800hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_850hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "850hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_900hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "900hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_925hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "925hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_950hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "950hPa气压层位势高度"
+    },
+    {
+      "name": "geopotential_height_975hPa",
+      "unit": "m",
+      "forecast": true,
+      "history": false,
+      "description": "975hPa气压层位势高度"
+    },
+    {
+      "name": "relative_humidity_1000hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "1000hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_100hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "100hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_150hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "150hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_200hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "200hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_250hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "250hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_300hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "300hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_30hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "30hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_400hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "400hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_500hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "500hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_50hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "50hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_600hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "600hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_700hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "700hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_70hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "70hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_800hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "800hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_850hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "850hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_900hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "900hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_925hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "925hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_950hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "950hPa气压层相对湿度"
+    },
+    {
+      "name": "relative_humidity_975hPa",
+      "unit": "%",
+      "forecast": true,
+      "history": false,
+      "description": "975hPa气压层相对湿度"
+    },
+    {
+      "name": "temperature_1000hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "1000hPa气压层气温"
+    },
+    {
+      "name": "temperature_100hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "100hPa气压层气温"
+    },
+    {
+      "name": "temperature_150hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "150hPa气压层气温"
+    },
+    {
+      "name": "temperature_200hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "200hPa气压层气温"
+    },
+    {
+      "name": "temperature_250hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "250hPa气压层气温"
+    },
+    {
+      "name": "temperature_300hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "300hPa气压层气温"
+    },
+    {
+      "name": "temperature_30hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "30hPa气压层气温"
+    },
+    {
+      "name": "temperature_400hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "400hPa气压层气温"
+    },
+    {
+      "name": "temperature_500hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "500hPa气压层气温"
+    },
+    {
+      "name": "temperature_50hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "50hPa气压层气温"
+    },
+    {
+      "name": "temperature_600hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "600hPa气压层气温"
+    },
+    {
+      "name": "temperature_700hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "700hPa气压层气温"
+    },
+    {
+      "name": "temperature_70hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "70hPa气压层气温"
+    },
+    {
+      "name": "temperature_800hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "800hPa气压层气温"
+    },
+    {
+      "name": "temperature_850hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "850hPa气压层气温"
+    },
+    {
+      "name": "temperature_900hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "900hPa气压层气温"
+    },
+    {
+      "name": "temperature_925hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "925hPa气压层气温"
+    },
+    {
+      "name": "temperature_950hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "950hPa气压层气温"
+    },
+    {
+      "name": "temperature_975hPa",
+      "unit": "°C",
+      "forecast": true,
+      "history": false,
+      "description": "975hPa气压层气温"
+    },
+    {
+      "name": "wind_direction_1000hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "1000hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_100hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "100hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_150hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "150hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_200hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "200hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_250hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "250hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_300hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "300hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_30hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "30hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_400hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "400hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_500hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "500hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_50hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "50hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_600hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "600hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_700hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "700hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_70hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "70hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_800hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "800hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_850hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "850hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_900hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "900hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_925hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "925hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_950hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "950hPa气压层风向"
+    },
+    {
+      "name": "wind_direction_975hPa",
+      "unit": "°",
+      "forecast": true,
+      "history": false,
+      "description": "975hPa气压层风向"
+    },
+    {
+      "name": "wind_speed_1000hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "1000hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_100hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "100hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_150hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "150hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_200hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "200hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_250hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "250hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_300hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "300hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_30hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "30hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_400hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "400hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_500hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "500hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_50hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "50hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_600hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "600hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_700hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "700hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_70hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "70hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_800hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "800hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_850hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "850hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_900hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "900hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_925hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "925hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_950hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "950hPa气压层风速"
+    },
+    {
+      "name": "wind_speed_975hPa",
+      "unit": "m/s",
+      "forecast": true,
+      "history": false,
+      "description": "975hPa气压层风速"
+    },
+    {
+      "name": "snow_depth",
+      "unit": "m",
+      "forecast": true,
+      "history": true,
+      "description": "地面积雪深度"
+    },
+    {
+      "name": "snowfall",
+      "unit": "cm",
+      "forecast": true,
+      "history": true,
+      "description": "降雪量"
+    },
+    {
+      "name": "diffuse_radiation",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "水平面散射辐照度（DHI）"
+    },
+    {
+      "name": "diffuse_radiation_instant",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": false,
+      "description": "时刻水平面散射辐照度"
+    },
+    {
+      "name": "direct_normal_irradiance",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "法向直接辐照度（DNI）"
+    },
+    {
+      "name": "direct_normal_irradiance_instant",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": false,
+      "description": "时刻法向直接辐照度"
+    },
+    {
+      "name": "direct_radiation",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "水平面直接辐照度"
+    },
+    {
+      "name": "direct_radiation_instant",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": false,
+      "description": "时刻水平面直接辐照度"
+    },
+    {
+      "name": "global_tilted_irradiance",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "倾斜面总辐照度（GTI）"
+    },
+    {
+      "name": "global_tilted_irradiance_instant",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": false,
+      "description": "时刻倾斜面总辐照度"
+    },
+    {
+      "name": "shortwave_radiation",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "水平面总短波辐照度（GHI）"
+    },
+    {
+      "name": "shortwave_radiation_instant",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": false,
+      "description": "时刻水平面总短波辐照度"
+    },
+    {
+      "name": "sunshine_duration",
+      "unit": "s",
+      "forecast": true,
+      "history": true,
+      "description": "日照时数（当前时段累计秒数）"
+    },
+    {
+      "name": "terrestrial_radiation",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": true,
+      "description": "大气层顶太阳辐照度"
+    },
+    {
+      "name": "terrestrial_radiation_instant",
+      "unit": "W/m²",
+      "forecast": true,
+      "history": false,
+      "description": "时刻大气层顶太阳辐照度"
+    },
+    {
+      "name": "apparent_temperature",
+      "unit": "°C",
+      "forecast": true,
+      "history": true,
+      "description": "体感温度"
+    },
+    {
+      "name": "temperature_2m",
+      "unit": "°C",
+      "forecast": true,
+      "history": true,
+      "description": "地面以上2米气温"
+    },
+    {
+      "name": "wet_bulb_temperature_2m",
+      "unit": "°C",
+      "forecast": true,
+      "history": true,
+      "description": "地面以上2米湿球温度"
+    },
+    {
+      "name": "visibility",
+      "unit": "m",
+      "forecast": true,
+      "history": true,
+      "description": "能见度"
+    },
+    {
+      "name": "wind_direction_100m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "100米风向"
+    },
+    {
+      "name": "wind_direction_10m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "10米风向"
+    },
+    {
+      "name": "wind_direction_110m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "110米风向"
+    },
+    {
+      "name": "wind_direction_120m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "120米风向"
+    },
+    {
+      "name": "wind_direction_130m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "130米风向"
+    },
+    {
+      "name": "wind_direction_140m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "140米风向"
+    },
+    {
+      "name": "wind_direction_150m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "150米风向"
+    },
+    {
+      "name": "wind_direction_160m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "160米风向"
+    },
+    {
+      "name": "wind_direction_170m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "170米风向"
+    },
+    {
+      "name": "wind_direction_180m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "180米风向"
+    },
+    {
+      "name": "wind_direction_190m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "190米风向"
+    },
+    {
+      "name": "wind_direction_200m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "200米风向"
+    },
+    {
+      "name": "wind_direction_20m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "20米风向"
+    },
+    {
+      "name": "wind_direction_30m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "30米风向"
+    },
+    {
+      "name": "wind_direction_40m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "40米风向"
+    },
+    {
+      "name": "wind_direction_50m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "50米风向"
+    },
+    {
+      "name": "wind_direction_60m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "60米风向"
+    },
+    {
+      "name": "wind_direction_70m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "70米风向"
+    },
+    {
+      "name": "wind_direction_80m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "80米风向"
+    },
+    {
+      "name": "wind_direction_90m",
+      "unit": "°",
+      "forecast": true,
+      "history": true,
+      "description": "90米风向"
+    },
+    {
+      "name": "wind_gusts_10m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "10米阵风"
+    },
+    {
+      "name": "wind_speed_100m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "100米风速"
+    },
+    {
+      "name": "wind_speed_10m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "10米风速"
+    },
+    {
+      "name": "wind_speed_110m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "110米风速"
+    },
+    {
+      "name": "wind_speed_120m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "120米风速"
+    },
+    {
+      "name": "wind_speed_130m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "130米风速"
+    },
+    {
+      "name": "wind_speed_140m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "140米风速"
+    },
+    {
+      "name": "wind_speed_150m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "150米风速"
+    },
+    {
+      "name": "wind_speed_160m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "160米风速"
+    },
+    {
+      "name": "wind_speed_170m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "170米风速"
+    },
+    {
+      "name": "wind_speed_180m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "180米风速"
+    },
+    {
+      "name": "wind_speed_190m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "190米风速"
+    },
+    {
+      "name": "wind_speed_200m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "200米风速"
+    },
+    {
+      "name": "wind_speed_20m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "20米风速"
+    },
+    {
+      "name": "wind_speed_30m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "30米风速"
+    },
+    {
+      "name": "wind_speed_40m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "40米风速"
+    },
+    {
+      "name": "wind_speed_50m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "50米风速"
+    },
+    {
+      "name": "wind_speed_60m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "60米风速"
+    },
+    {
+      "name": "wind_speed_70m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "70米风速"
+    },
+    {
+      "name": "wind_speed_80m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "80米风速"
+    },
+    {
+      "name": "wind_speed_90m",
+      "unit": "m/s",
+      "forecast": true,
+      "history": true,
+      "description": "90米风速"
+    }
+  ]
+}
